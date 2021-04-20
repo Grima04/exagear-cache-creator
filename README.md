@@ -18,7 +18,7 @@ Currently the following options are offered:
 ## Instructions:
 * First, download the entire project as a .zip and extract it somewhere you want.
 * Afterwards, navigate to the libs folder from the project files (where you extracted the zip) and place the libs that you want to use with their full folder tree inside. For example: if you want to use a custom libGL library (e.g.: virgl), then your file tree should look as follows: **your-project-extraction-location/libs/usr/lib/i386-linux-gnu/libGL.so.1**
-* Next, launch the exagear-create-cache.sh script with sudo and follow the instructions given in the terminal: **sudo ./exagear-create-cache.sh**
+* Next, make the exagear-create-cache.sh executable with **chmod +x exagear-create-cache.sh** and launch the exagear-create-cache.sh script with sudo and follow the instructions given in the terminal: **sudo ./exagear-create-cache.sh**
 * You will have the option to choose between Ubuntu 18.04 and 16.04 (**Please only use 18.04 for now**), Wine devel or stable and a specific Wine version.
 * If everything works as planned, you should now have a .obb cache file ready to use inside the obb-cache folder.
 * Finally, copy that .obb to your phone to the following directory: **/storage/emulated/0/Android/obb/com.eltechs.ed/**
