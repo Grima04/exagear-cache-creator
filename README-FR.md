@@ -19,12 +19,12 @@ Au moment, les options suivantes sont offertes:
 ## Instructions:
 * D'abord, installez debootstrap sur votre système, téléchargez le projet entier sous forme d'archive zip et extrayez-le où vous voulez.
 * Ensuite, naviguez au fichier libs du projet téléchargé et placez les bibliothèques avec leur chemin d'accès complet dans le fichier libs. Par exemple: si vous avez une bibliothèque libGL (pour virgl, Mesa LLVMpipe, etc), vous devez avoir à la fin le chemin d'accès suivant: **votre-chemin-du-projet/libs/usr/lib/i386-linux-gnu/libGL.so.1**
-* Après, activez le droit d'exécution du script exagear-create-cache.sh avec **chmod +x exagear-create-cache.sh** et démarrez le script avec sudo et suives les instructions données au terminal: **sudo ./exagear-create-cache.sh**
-* Maintenant, vous allez avoir le choix entre Ubuntu 18.04 et 16.04 (**choisissez s'il vous plait seulement Ubuntu 18.04 pour le moment donné**), Wine devel ou Wine stable et vous pouvez ensuite choisir une version de Wine spécifique.
+* Après, activez le droit d'exécution du script exagear-create-cache.sh avec **chmod +x exagear-create-cache.sh** et démarrez le script avec sudo et suivez les instructions données au terminal: **sudo ./exagear-create-cache.sh**
+* Maintenant, vous allez avoir le choix entre Ubuntu 18.04 et 16.04 (**choisissez s'il vous plaît seulement Ubuntu 18.04 pour le moment donné**), Wine devel ou Wine stable et vous pouvez ensuite choisir une version de Wine spécifique.
 * Si tout se déroule comme planifié, vous devriez avoir maintenant un fichier .obb prêt à être utilisé dans le fichier obb-cache.
-* Finalement, copiez le fichier .obb à votre dispositif Android et collez le dans le chemin suivant: **/storage/emulated/0/Android/obb/com.eltechs.ed/**
+* Finalement, copiez le fichier .obb à votre dispositif Android et collez-le dans le chemin suivant: **/storage/emulated/0/Android/obb/com.eltechs.ed/**
 * Maintenant, vous pouvez démarrer ExaGear avec votre système Ubuntu et Wine personnalisé.
-* **NB: Je ne suis pas responsable pour tout forme de dommage causé à votre dispotifif, ordinateur et/ou a vous en utilisant ce logiciel. Utilisation à vos risques.**
+* **NB: Je ne suis pas responsable pour tout forme de dommage causé à votre dispositif, ordinateur et/ou à vous en utilisant ce logiciel. Utilisation à vos propres risques.**
 
 ## Information supplémentaire:
 * Prière de me contacter en cas de problèmes liés à l'installation d'une version spécifique de Wine. L'origine du problème sera probablement une faute de frappe dans les miroirs de Wine, donc vous pouvez aussi essayer de résoudre le problème vous-même si vous voulez.
