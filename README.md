@@ -1,4 +1,4 @@
-Select your language: English / [Français](https://github.com/Grima04/exagear-cache-creator/blob/main/README-FR.md) / Deutsch
+Select your language: English / [Français](https://github.com/Grima04/exagear-cache-creator/blob/main/README-FR.md) / [Deutsch](https://github.com/Grima04/exagear-cache-creator/blob/main/README-DE.md)
 # ExaGear cache creator tool
 ExaGear cache creator - easily setup a custom ExaGear .obb cache that fits your needs with this small script.
 
